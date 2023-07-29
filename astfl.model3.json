@@ -3,10 +3,33 @@
 	"FileReferences": {
 		"Moc": "astfl.moc3",
 		"Textures": [
-			"astfl.1024/texture_00.png"
+			"astfl.2048/texture_00.png",
+			"astfl.2048/texture_01.png"
 		],
 		"Physics": "astfl.physics3.json",
-		"DisplayInfo": "astfl.cdi3.json"
+		"DisplayInfo": "astfl.cdi3.json",
+		"Expressions": [
+			{"Name":"f00","File":"expressions/exp1.exp3.json"},
+			{"Name":"f01","File":"expressions/exp2.exp3.json"},
+			{"Name":"f02","File":"expressions/exp3.exp3.json"},
+			{"Name":"f03","File":"expressions/exp4.exp3.json"}
+		],
+		"Motions": {
+			"TapBody": [  
+				{
+					"File": "motions/Scene2.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"TapHead": [  
+				{
+					"File": "motions/Scene1.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			]
+		}
 	},
 	"Groups": [
 		{
@@ -21,6 +44,16 @@
 			"Target": "Parameter",
 			"Name": "LipSync",
 			"Ids": []
+		}
+	],
+	"HitAreas": [ 
+		{
+			"Id": "ArtMesh25",
+			"Name": "Head"
+		},
+		{
+			"Id": "ArtMesh22",
+			"Name": "Body"
 		}
 	]
 }

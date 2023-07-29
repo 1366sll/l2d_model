@@ -27,6 +27,26 @@
 			"Name": "左眼　微笑"
 		},
 		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "特效 眼"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "特性脸红2"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "特效脸红1"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "衣服"
+		},
+		{
 			"Id": "ParamEyeROpen",
 			"GroupId": "",
 			"Name": "右眼"
@@ -165,10 +185,19 @@
 			"Id": "Param6",
 			"GroupId": "",
 			"Name": "右辫子"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "特效雾"
 		}
 	],
 	"ParameterGroups": [],
 	"Parts": [
+		{
+			"Id": "Part11",
+			"Name": "qiyu.psd"
+		},
 		{
 			"Id": "Part7",
 			"Name": "头发"
@@ -179,11 +208,11 @@
 		},
 		{
 			"Id": "Part2",
-			"Name": "右眼"
+			"Name": "鼻"
 		},
 		{
 			"Id": "Part3",
-			"Name": "左眼"
+			"Name": "眼"
 		},
 		{
 			"Id": "Part",
