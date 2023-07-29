@@ -15,14 +15,14 @@
 			{"Name":"f03","File":"expressions/exp4.exp3.json"}
 		],
 		"Motions": {
-			"TapBody": [  
+			"tap_body": [  
 				{
 					"File": "motions/Scene2.motion3.json",
 					"FadeInTime": 0.5,
 					"FadeOutTime": 0.5
 				}
 			],
-			"TapHead": [  
+			"Tap": [  
 				{
 					"File": "motions/Scene1.motion3.json",
 					"FadeInTime": 0.5,
