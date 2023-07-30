@@ -1,12 +1,12 @@
 {
 	"Version": 3,
 	"FileReferences": {
-		"Moc": "astfl.moc3",
+		"Moc": "astfl_cute.moc3",
 		"Textures": [
-			"astfl.1024/texture_00.png"
+			"astfl_cute.1024/texture_00.png"
 		],
-		"Physics": "astfl.physics3.json",
-		"DisplayInfo": "astfl.cdi3.json",
+		"Physics": "astfl_cute.physics3.json",
+		"DisplayInfo": "astfl_cute.cdi3.json",
 		"Expressions": [
 			{"Name":"f00","File":"expressions/exp1.exp3.json"},
 			{"Name":"f01","File":"expressions/exp2.exp3.json"},
